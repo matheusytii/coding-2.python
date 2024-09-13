@@ -1,0 +1,46 @@
+if numero % 2  == 0:
+    print("esse é par")
+    else: 
+    print("esse é impar" )
+
+    #perguntar o cliente qual cupom
+    cupom = input("digite o cupom :")
+     if  cupom == "aula 01":
+       print("voce ganhou 15% de desconto")
+    if cupom == "aula 01":   
+       print("voce ganhou 15% de desconto")
+    else:
+       print("voce ganhou 5% de desconto")
+    
+    
+    
+if ("sol"and "dinheiro"):
+        print("praia")
+else:
+       print("netflix")
+       
+sol = input("Você tem sol? (sim/não): ")
+dinheiro = input("Você tem dinheiro? (sim/não): ")
+ 
+ #Conferindo o "sim" ou "não"
+if (sol == "sim"):
+  if (dinheiro == "sim"):
+    print("praia")
+else:
+    print(" netflix")
+ 
+ 
+ano = int(input("Digite o ano do carro: "))
+preço = float(input("Digite o preço do carro: "))
+ 
+# Calcula a taxa com base no ano do carro porque imposto é roubo e sonegar é legítima defesa
+if ano < 1990:
+    taxa = 0.01
+else:
+    taxa = 0.015
+ 
+# Calcula o imposto a ser pago com base nas informações
+imposto = preço * taxa
+ 
+# Printa o resultado final sem F pois estou em remissão de f
+print("O imposto a ser pago é:", imposto)
