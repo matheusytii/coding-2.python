@@ -1,0 +1,17 @@
+nome = "matheus"  #string   
+idade = 18     # inteiro
+altura = 1.5   #float
+print(nome, idade, altura)
+
+
+soma = idade + altura
+print(soma)
+
+multi = idade * altura
+print(multi)
+
+divisao = idade / altura
+print(divisao)
+
+divisaoint = idade // altura
+print(divisaoint)
