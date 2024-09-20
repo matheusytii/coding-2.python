@@ -1,0 +1,48 @@
+
+L = ()
+
+
+L = [14, 15, 16]
+
+
+L
+
+
+L[0] = 12
+
+
+L [0]
+
+
+lista2 = L
+
+
+print (L == lista2)
+
+
+print (L is lista2)
+
+
+lista2 [0] = 1
+
+
+print (lista2)
+print (L)
+
+
+lista3= lista2.copy()
+
+
+lista4 = lista3 [:]
+
+
+FATIAMENTO
+
+
+nova_lista = ['a','b','c','d','e','f']
+
+
+nova_lista [0]
+
+
+nova_lista [0:2:4]
